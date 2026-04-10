@@ -988,7 +988,7 @@ footer {
     gap: 10px;
     margin: 0 0 18px 0;
     position: absolute;
-    bottom: calc(env(safe-area-inset-bottom, 0px) + 80px);
+    bottom: calc(env(safe-area-inset-bottom, 0px) + 100px);
     left: 50%;
     transform: translateX(-50%);
   }
