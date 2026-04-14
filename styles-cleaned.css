@@ -240,7 +240,7 @@ h2, h3{
 }
 .btn-cta.btn-sheen {
   position: relative;
-  overflow: hidden;
+  overflow: clip;
 }
 
 .btn-cta.btn-sheen::after {
