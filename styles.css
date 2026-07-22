@@ -1161,7 +1161,7 @@ section {
   .mobile-sticky-cta {
     position: fixed;
     left: 50%;
-    bottom: calc(12px + env(safe-area-inset-bottom));
+    bottom: calc(36px + env(safe-area-inset-bottom));
     transform: translateX(-50%) translateY(120%);
     width: min(calc(100% - 32px), 300px);
     display: grid;
