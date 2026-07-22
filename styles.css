@@ -1001,7 +1001,7 @@ footer {
     gap: 10px;
     margin: 0 0 18px 0;
     position: absolute;
-    bottom: calc(env(safe-area-inset-bottom, 0px) + 100px);
+    bottom: calc(env(safe-area-inset-bottom, 0px) + 124px);
     left: 50%;
     transform: translateX(-50%);
   }
@@ -1161,7 +1161,7 @@ section {
   .mobile-sticky-cta {
     position: fixed;
     left: 50%;
-    bottom: calc(36px + env(safe-area-inset-bottom));
+    bottom: calc(12px + env(safe-area-inset-bottom));
     transform: translateX(-50%) translateY(120%);
     width: min(calc(100% - 32px), 300px);
     display: grid;
